@@ -7,7 +7,11 @@
 
 npx create-react-native-app --template https://github.com/karthik-hallad/GreenMonkApp
 
-2.  What is your app named? ... GreenMonkApp
+2. Make sure to follow these Configurations/Commands
+
+   `What is your app named? ... GreenMonkApp` --while naming the project
+   
+   `npm i --force` -- while installing the packages
 
 3. Update `.env` with configuration, e.g.:
 
@@ -23,6 +27,7 @@ APP_ID=XXXX
 ```
 
 4. Start the project:
-
+- `expo start` --start the project
+- `expo start --tunnel` --open on mobile
 - `yarn ios` -- open on iOS
 - `yarn android` -- open on Android
