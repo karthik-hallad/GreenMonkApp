@@ -1,7 +1,8 @@
-import { initializeApp } from 'firebase/app';
-import { initializeAuth, getReactNativePersistence } from 'firebase/auth';
-import Constants from 'expo-constants';
-import AsyncStorage from '@react-native-async-storage/async-storage';
+import {initializeApp} from "firebase/app";
+import {initializeAuth} from "firebase/auth";
+import {getReactNativePersistence} from "firebase/auth/react-native";
+import Constants from "expo-constants";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 
 // add firebase config
 const firebaseConfig = {
@@ -21,4 +22,4 @@ const auth = initializeAuth(app, {
   persistence: getReactNativePersistence(AsyncStorage),
 });
 
-export { auth };
+export {auth};
