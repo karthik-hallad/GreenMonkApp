@@ -30,3 +30,5 @@ APP_ID=XXXX
 - `expo start --tunnel` --open on mobile
 - `yarn ios` -- open on iOS
 - `yarn android` -- open on Android
+
+In case the input fields are not active...try refereshing the project
