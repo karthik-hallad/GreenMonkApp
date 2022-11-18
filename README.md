@@ -16,7 +16,6 @@ npx create-react-native-app --template https://github.com/karthik-hallad/GreenMo
 3. Update `.env` with configuration, e.g.:
 
 ```shell
-# Rename this file to ".env" before use
 # Replace XXXX's with your own Firebase config keys
 API_KEY=XXXX
 AUTH_DOMAIN=XXXX
