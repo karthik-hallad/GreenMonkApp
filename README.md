@@ -2,7 +2,7 @@
 
 ## Installation
 
-1. Create a new project using the firebase starter template.
+1. Create a new project using this template.
 
 
 npx create-react-native-app --template https://github.com/karthik-hallad/GreenMonkApp
@@ -13,7 +13,7 @@ npx create-react-native-app --template https://github.com/karthik-hallad/GreenMo
    
    `npm i --force` -- while installing the packages
 
-3. Update `.env` with configuration, e.g.:
+3. Update `.env` with configuration
 
 ```shell
 # Replace XXXX's with your own Firebase config keys
